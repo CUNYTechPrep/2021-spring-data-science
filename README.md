@@ -1,3 +1,4 @@
+
 # Spring 2021 Data Science Repo
 
 ## Office Hours
@@ -8,12 +9,19 @@
 * TA Julia
 	* TBD
 
+
+## Homework Submission Sheets
+* [Thursday's Homework Submission Sheet](https://docs.google.com/spreadsheets/d/1zXs0AZorLKglwBCYmZ0N6SZyfTuSkqlLzq6XxwWEjyY/edit?usp=sharing) 
+* [Friday's Homework Submission Sheet](https://docs.google.com/spreadsheets/d/136MdqNnMnl4KAX6X0ZCmLpTkTPuuXxoQr-7HoW6HvyA/edit?usp=sharing)
+
+
 ## Updating your fork
-* Do this __only once__ to link your fork with the main repo:  
+* Do this __first step only once__ to link your fork with the main repo:  
 	* `git remote add upstream https://github.com/CUNYTechPrep/2021-spring-data-science.git`
-* Then every week, run these commands to get the new files.
+* Then __every week__, run these commands below to get the new files.
 	1. `git fetch upstream`
 	2. `git merge upstream/master`
+
 
 ## Course Overview
 * Week 01:  Introduction to Data Science & working with Data in Pandas
