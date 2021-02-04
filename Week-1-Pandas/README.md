@@ -25,17 +25,30 @@
 	7. Always be respectful and courteous to other students, instructors, and guests during sessions. Inappropriate, offensive or threatening comments; misrepresentation of identity, and/or disruptive behavior by any participants during sessions will not be tolerated.
 
 
-2. Getting setup with Jupyter Notebooks.
-
 3. Live coding lecture.
 	* Pandas cheat sheets:
     * [1](http://datacamp-community-prod.s3.amazonaws.com/dbed353d-2757-4617-8206-8767ab379ab3), [2](https://datacamp-community-prod.s3.amazonaws.com/9f0f2ae1-8bd8-4302-a67b-e17f3059d9e8), [3](https://datacamp-community-prod.s3.amazonaws.com/50d31142-3de0-4159-89b9-18b718a728ef)
 
-4. Begin homework exercise in breakout rooms.
+4. BREAK
+
+5. Getting your forked repo setup.
+	1. Fork the main repo. 
+	2. Clone your fork onto your desktop. 
+		* `git clone [link to your repo]`
+	3. Sync your fork with the main repo 
+		* `git remote add upstream https://github.com/CUNYTechPrep/2021-spring-data-science.git`
+	4. Make changes to your Exercise file. Then to save them back into github.
+		* `git add *`
+		* `git commit -m '[your commit message here]'`
+		* `git push`
+
+
+5. Begin homework exercise in breakout rooms.
 	* Fork this Week1-Pandas repo.
 	* Clone / download your fork to your local machine.
 	* Do your work in the `Exercise.ipynb`.
 	* Once finished, push your changes to your fork.
 	* Please submit the link to your forked repo homework file 
-		* [Wed Class in this google sheet](https://docs.google.com/spreadsheets/d/19mFx4h5Fa1XIIO0Hoodo8AQAnuPxUhFIptNJRAxn_hs/edit?usp=sharing).
-		* [Friday's Class in this google sheet](https://docs.google.com/spreadsheets/d/1K6N3USZtQcBtFgnNo0kRRn1CaGi2HHENZYZxw4xNTkI/edit?usp=sharing)
+		* [Thursday's Homework Submission Sheet](https://docs.google.com/spreadsheets/d/1zXs0AZorLKglwBCYmZ0N6SZyfTuSkqlLzq6XxwWEjyY/edit?usp=sharing) 
+		* [Friday's Homework Submission Sheet](https://docs.google.com/spreadsheets/d/136MdqNnMnl4KAX6X0ZCmLpTkTPuuXxoQr-7HoW6HvyA/edit?usp=sharing)
+
