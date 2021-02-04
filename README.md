@@ -2,11 +2,11 @@
 
 ## Office Hours
 * Instructor Zack's Office Hours
-	* Wednesday's 6-8pm EST
+	* Wednesday's 6-8pm
 * TA Steve's Office Hours
-	* TBD
+	* Monday and Tuesday 5-6pm
 * TA Julia
-	* TBD
+	* Tuesday and Wed 5-6pm
 
 
 ## Homework Submission Sheets

@@ -1,9 +1,8 @@
 # Data Wrangling with Pandas
 ---
 1. Introductions
-	1. Instructor / TA Steve 
-		* Office Hours on Thursday from 5:00 - 7:00 EST
-	2. Jackie
+	1. Jackie / Fill out Google Form
+	2. Instructor / TA Steve (Thr), Julia (Fri)
 	3. Students
 		* One minute please.
 		* What are you hoping to learn or What excites you most about this class.
