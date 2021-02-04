@@ -1,9 +1,8 @@
-
 # Spring 2021 Data Science Repo
 
 ## Office Hours
 * Instructor Zack's Office Hours
-	* Wednesday's 6-8 EST
+	* Wednesday's 6-8pm EST
 * TA Steve's Office Hours
 	* TBD
 * TA Julia
