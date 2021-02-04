@@ -44,11 +44,12 @@
 
 
 5. Begin homework exercise in breakout rooms.
-	* Fork this Week1-Pandas repo.
-	* Clone / download your fork to your local machine.
 	* Do your work in the `Exercise.ipynb`.
 	* Once finished, push your changes to your fork.
-	* Please submit the link to your forked repo homework file 
+		* `git add *`
+		* `git commit -m '[your commit message here]'`
+		* `git push`
+	* Please submit the link to your forked repo Exercise homework file in the HW Tracker Sheet next to your name.  
 		* [Thursday's Homework Submission Sheet](https://docs.google.com/spreadsheets/d/1zXs0AZorLKglwBCYmZ0N6SZyfTuSkqlLzq6XxwWEjyY/edit?usp=sharing) 
 		* [Friday's Homework Submission Sheet](https://docs.google.com/spreadsheets/d/136MdqNnMnl4KAX6X0ZCmLpTkTPuuXxoQr-7HoW6HvyA/edit?usp=sharing)
 
