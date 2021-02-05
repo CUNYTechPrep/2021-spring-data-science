@@ -8,6 +8,8 @@
 * TA Julia
 	* Tuesday and Wed 5-6pm
 
+## [Lecture Recordings](https://docs.google.com/document/d/1t4om4K2eOAbSDfZ3XKKbM0Mw1HuLF_7CvFFmcgWvQds/edit#)
+
 
 ## Homework Submission Sheets
 * [Thursday's Homework Submission Sheet](https://docs.google.com/spreadsheets/d/1zXs0AZorLKglwBCYmZ0N6SZyfTuSkqlLzq6XxwWEjyY/edit?usp=sharing) 
