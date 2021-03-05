@@ -66,31 +66,58 @@ For this section of the exercise we will be using the `bigquery-public-data.aust
 
 1. Write a query that returns each zipcode and their population for 2000 and 2010. 
 	```
-	[YOUR QUERY HERE]
+	WITH
+  	table_2000 AS(
+  	SELECT zipcode,population
+  	FROM `bigquery-public-data.census_bureau_usa.population_by_zip_2000` 
+),
+ 	table_2010 AS(
+  	SELECT zipcode, population
+  	FROM `bigquery-public-data.census_bureau_usa.population_by_zip_2010`)
+	SELECT *
+	FROM table_2000 AS A JOIN table_2010 AS B ON A.zipcode = B.zipcode
 	```
 
 ### For the next section, use the  `bigquery-public-data.google_political_ads.advertiser_weekly_spend` table.
 1. Using the `advertiser_weekly_spend` table, write a query that finds the advertiser_name that spent the most in usd. 
 	```
-	[YOUR QUERY HERE]
+	WITH table_spend AS(SELECT 
+	advertiser_name , SUM(spend_usd) as spend
+	FROM `bigquery-public-data.google_political_ads.advertiser_weekly_spend`
+	Group BY advertiser_name 
+	)
+	SELECT
+	*
+	FROM table_spend 
+	ORDER BY spend DESC
 	```
 2. Who was the 6th highest spender? (No need to insert query here, just type in the answer.)
 	```
-	[YOUR ANSWER HERE]
+	SENATE LEADERSHIP FUND
 	```
 
 3. What week_start_date had the highest spend? (No need to insert query here, just type in the answer.)
 	```
-	[YOUR ANSWER HERE]
+	2020-10-18
 	```
 
 4. Using the `advertiser_weekly_spend` table, write a query that returns the sum of spend by week (using week_start_date) in usd for the month of August only. 
 	```
-	[YOUR QUERY HERE]
+	WITH table_spend AS(SELECT 
+	advertiser_name , SUM(spend_usd) as spend, week_start_date
+	FROM `bigquery-public-data.google_political_ads.advertiser_weekly_spend`
+	WHERE week_start_date BETWEEN "2020-08-01" AND "2020-08-21"
+	Group BY advertiser_name, week_start_date 
+	)
+	SELECT
+	*
+	FROM table_spend 
+	ORDER BY spend DESC 
 	```
 6.  How many ads did the 'TOM STEYER 2020' campaign run? (No need to insert query here, just type in the answer.)
 	```
-	[YOUR ANSWER HERE]
+	8927200
+
 	```
 7. Write a query that has, in the US region only, the total spend in usd for each advertiser_name and how many ads they ran. (Hint, you're going to have to join tables for this one). 
 	```
