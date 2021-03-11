@@ -14,7 +14,7 @@
 	* `git fetch upstream`
 	* `git merge upstream/master`
 7. Install new package Graphviz
-	* `conda install python-graphviz`
+	* `pip install graphviz`
 8. Exercise in breakout rooms
 
 
@@ -24,7 +24,6 @@
 2. Form teams and fill out this [project design document](https://docs.google.com/document/d/1Nmg_1E0Mwu9pP6YMhr8m7cIIMkGidyNADXkinG9o4ZU/edit?usp=sharing) before next class. 
 
 3. Fill out [this google form](https://forms.gle/xSKDDJQV2JgwF6Vy8) for your team (one per team). 
-
 
 
 
