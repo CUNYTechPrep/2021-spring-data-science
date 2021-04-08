@@ -6,7 +6,8 @@
 1. Review last weeks HW.
 2. Google Slides Lecture: [LINK](https://docs.google.com/presentation/d/1LSZ-LH5eqrO-9VhW4GB3H6qqkxHmdgJheHH8oZ8Q2Co/edit?usp=sharing)
 3. Live Coding Lecture
-4. Break
+4. Extra Long Break
+	* Fill out [midpoint self assessment](https://forms.gle/VHvUTiuGko23NQUX8)
 5. Team Breakout Rooms. 
 
 ___
