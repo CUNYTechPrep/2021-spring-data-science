@@ -42,6 +42,3 @@
 * __Week 15: [05-26 5:30 - 7:00] Demo Night__
 
 _Note, coursework and lessons may be subject to change based on class needs._
-
-
-Demo Night Dress Rehearsal Spring 2021
