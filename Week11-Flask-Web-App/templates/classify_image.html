@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My Web App</title>
+  </head>
+  <body>
+    <h1> Image Classifier </h1>
+    <h2>Upload Image Here </h2>
+    <form method=post enctype=multipart/form-data>
+      <input type=file name=file>
+      <input type=submit value=Upload>
+    </form>
+    {% if prediction %}
+    <p> Prediction for input image is: {{ prediction }} </p>
+    {% endif %}
+  </body>
+</html>

@@ -34,10 +34,11 @@
 * Week 07:  Natural Language Processing
 * Week 08:  Image Classifiers
 * Week 09:  Neural Networks
-* Week 10:  AB Testing
-* Week 11:  Projects Week 1
-* Week 12:  Projects Week 2
-* Week 13:  Projects Week 3 (MVP In Class Presentations)
+* Week 10: [04-22/23]  AB Testing
+* Week 11: [04-29/30]  Flask & Projects Week 1
+* Week 12: [05-06/07]  Projects Week 2
+* Week 13: [05-13/14]  Projects Week 3 (MVP In Class Presentations)
+* Week 14: [05-18 5:30 - 7:00] No class just Virtual Dress Rehearsal: [Meeting Link](https://meet.google.com/ewb-nozv-itk)
+* __Week 15: [05-26 5:30 - 7:00] Demo Night__
 
 _Note, coursework and lessons may be subject to change based on class needs._
-

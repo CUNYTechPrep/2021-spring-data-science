@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My Web App</title>
+  </head>
+  <body>
+  	<h1> Hello Inputs! </h1>
+<form action="{{ url_for('input_values') }}" method="POST">
+    <fieldset>
+        <legend>Input values:</legend>
+        First input variable:
+        <input name="input_variable_one" type="number" required>
+        <br>
+        <br> Another input field :
+        <input name="another-input-variable" type="number" required>
+        <br>
+        <br> Third input field:
+        <input name="third-input-variable" type="text" required>
+        <br>
+        <br>
+        <input type="submit">
+    </fieldset>
+
+	{% if returned_var_one %}
+		<p> Input value for variable one: {{ returned_var_one }}  </p>
+	{% endif %}
+
+	{% if returned_var_two %}
+		<p> Input value for variable two: {{ returned_var_two }} </p>
+	{% endif %}
+
+	{% if returned_var_three %}
+		<p> Input value for variable three: {{ returned_var_three }} </p>
+	{% endif %}
+
+
+	{% if returned_list %}
+	<p> Looping through a list </p>
+		{% for item in returned_list %}
+			<p> {{ item }} </p>
+		{% endfor %}
+	{% endif %}
+
+
+  </body>
+</html>
