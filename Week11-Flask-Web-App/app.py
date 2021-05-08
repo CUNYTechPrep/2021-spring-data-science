@@ -65,7 +65,7 @@ def main():
 
 
 
-
+# multiple values 
 @app.route('/input_values/', methods=['GET', 'POST'])
 def input_values():
     if flask.request.method == 'GET':
